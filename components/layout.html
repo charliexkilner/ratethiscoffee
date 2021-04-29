@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Layout</title>
+</head>
+<body class="bg">
+    <div class="h-24 w-screen nav border-b-2 border-white">
+        <div class="pt-7 pl-4">
+        <p class="text-white text-left uppercase text-3xl ">Rate This Coffee</p>
+    </div>
+    </div>
+
+    <div class="bg">
+    <div class="contain w-screen bg">
+        <!-- Sidebar -->
+        <aside class="container__sidebar h-screen w-1/5">
+            <div class="flex flex-row p-5 cursor-pointer pt-10">
+                <div class="text-4xl pr-5 text-left">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3qGQHrxd5PBHrF0SNN1l6QHaEb%26pid%3DApi&f=1" alt="" class="h-16 w-16 rounded-full opacity-100">
+            </div>
+            <div class="grid grid-cols-1">
+                    <div class="text-white text-2xl font-medium p-0">Charlie Kilner
+                        <div class="text-lg pr-5 font-mono uppercase text-white pt-0 opacity-60">@charlie</div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="flex p-5 cursor-pointer focus:bg-green-400 w-52 rounded-3xl ">
+                <div class="text-4xl pr-5 text-center">🏠</div>
+                <div class="text-white text-4xl font-medium text-center">Home</div>
+            </div>
+            <div class="flex p-5 opacity-40 hover:opacity-100 cursor-pointer">
+                <div class="text-4xl pr-5">🧭</div>
+                <div class="text-white text-4xl font-medium">Explore</div>
+            </div>
+            <div class="flex p-5 opacity-40 hover:opacity-100 cursor-pointer">
+                <div class="text-4xl pr-5">👤</div>
+                <div class="text-white text-4xl font-medium">Account</div>
+            </div>
+
+            <div class="pl-4 pt-10 flex">
+            <button class="postit h-auto p-3 text-2xl rounded-xl text-center w-80 cursor-pointer font-semibold opacity-80 hover:opacity-100">POST</button>
+            </div>
+
+        </aside>
+    
+        <!-- Main -->
+        <main class="container__main bg grid grid-cols-1 gap-4 justify-items-center w-4/5">
+
+        
+        </main>
+    </div>
+</div>
+
+</body>
+</html>

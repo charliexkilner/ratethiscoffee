@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Post</title>
+</head>
+<body>
+
+    <!--
+        TO DO:
+        - HR only ~75% width and centered
+        - mobile responsive 
+        - adding photo layout and multi photo layout
+    -->
+
+    <div class="p-10 bg h-screen">
+        <div class="post rounded hover:bg-black cursor-pointer">
+            <p class="text-white text-left p-10 text-lg font-medium h-auto">
+                Nunc, sagittis nisl, ligula vulputate quisque nulla tellus, fermentum quis. Adipiscing blandit fermentum fusce duis est. Et eu odio sed lorem enim elementum. Maecenas bibendum amet, magna in ultrices. 
+            </p>
+            <hr class="hr opacity-40">
+            <div class="grid md:grid-cols-4 grid-cols-2 gap-4 place-items-center p-10 h-auto">
+                <div>
+                    <p class="text-xl text-white font-medium text-center">Starbucks</p>
+                    <p class="text-md font-medium desc-text text-center uppercase">cafe</p>
+                </div>
+                <div>
+                    <p class="text-xl text-white font-medium text-center">Expresso</p>
+                    <p class="text-md font-medium desc-text text-center uppercase">coffee type</p>
+                </div>
+                <div>
+                    <p class="text-xl text-white font-medium text-center">12 Bond St.</p>
+                    <p class="text-md font-medium desc-text text-center uppercase">location</p>
+                </div>
+                <div>
+                    <p class="text-xl text-white font-medium text-center">⭐️⭐️⭐️⭐️⭐️</p>
+                    <p class="text-md font-medium desc-text text-center uppercase">rating</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>

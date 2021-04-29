@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Layout</title>
+</head>
+<body class="bg">
+
+    <div class="bg">
+    <div class="contain w-screen bg flex">
+        <!-- Sidebar -->
+        <aside class="container__sidebar h-auto w-1/5">
+            <div class="flex flex-row p-5 cursor-pointer pt-10">
+                <div class="text-4xl pr-5 text-left">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.3qGQHrxd5PBHrF0SNN1l6QHaEb%26pid%3DApi&f=1" alt="" class="h-16 w-16 rounded-full opacity-100">
+            </div>
+            <div class="grid grid-cols-1">
+                    <div class="text-white text-2xl font-medium p-0">Charlie Kilner
+                        <div class="text-lg pr-5 font-mono uppercase text-white pt-0 opacity-60">@charlie</div>
+                    </div>
+            </div>
+            </div>
+
+            <div class="flex p-5 cursor-pointer opacity-40 hover:opacity-100 focus:bg-green-400 w-52 rounded-3xl ">
+                <div class="text-4xl pr-5 text-center">🏠</div>
+                <div class="text-white text-4xl font-medium text-center">Home</div>
+            </div>
+            <div class="flex p-5 cursor-pointer">
+                <div class="text-4xl pr-5">🧭</div>
+                <div class="text-white text-4xl font-medium">Explore</div>
+            </div>
+            <div class="flex p-5 opacity-40 hover:opacity-100 cursor-pointer">
+                <div class="text-4xl pr-5">👤</div>
+                <div class="text-white text-4xl font-medium">Account</div>
+            </div>
+
+            <div class="pl-4 pt-10 flex">
+            <button class="postit h-auto p-3 text-2xl rounded-xl text-center w-80 cursor-pointer font-semibold opacity-80 hover:opacity-100">POST</button>
+            </div>
+
+        </aside>
+    
+        <!-- Main -->
+        <main class="container__main bg w-4/5">
+
+            <div class="grid grid-cols-4 gap-x-4 gap-y-4 m-5">
+
+                <div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer hover:border-green-400 hover:shadow-lg">
+                        <div class="name">
+                            <p class="text-4xl text-center">Starbucks</p>
+                        </div>
+                        <p class=" text-center">12 Bond St</p>
+                        <div class="grid grid-cols-2 text-center pt-16">
+                        <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+                        <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+                    </div>
+                </div>
+                <div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+                    <div class="name">
+                        <p class="text-4xl text-center">Starbucks</p>
+                    </div>
+                    <p class=" text-center">12 Bond St</p>
+                    <div class="grid grid-cols-2 text-center pt-16">
+                    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+                    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+                </div>
+            </div>
+            <div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+                <div class="name">
+                    <p class="text-4xl text-center">Starbucks</p>
+                </div>
+                <p class=" text-center">12 Bond St</p>
+                <div class="grid grid-cols-2 text-center pt-16">
+                <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+                <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+            </div>
+        </div>
+        <div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+            <div class="name">
+                <p class="text-4xl text-center">Starbucks</p>
+            </div>
+            <p class=" text-center">12 Bond St</p>
+            <div class="grid grid-cols-2 text-center pt-16">
+            <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+            <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+        </div>
+    </div>
+    <div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+        <div class="name">
+            <p class="text-4xl text-center">Starbucks</p>
+        </div>
+        <p class=" text-center">12 Bond St</p>
+        <div class="grid grid-cols-2 text-center pt-16">
+        <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+        <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+    </div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+<div class="bg-gray-400 w-fill h-80 rounded-md card text-white border-solid border-2 opacity-90 hover:opacity-100 cursor-pointer">
+    <div class="name">
+        <p class="text-4xl text-center">Starbucks</p>
+    </div>
+    <p class=" text-center">12 Bond St</p>
+    <div class="grid grid-cols-2 text-center pt-16">
+    <p class="text-left pl-2 text-green-400 font-medium">Open</p>
+    <p class="text-right pr-2">⭐️⭐️⭐️⭐️⭐️</p>
+</div>
+</div>
+
+            </div>
+        
+        </main>
+    </div>
+</div>
+
+</body>
+</html>

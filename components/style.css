@@ -1,0 +1,50 @@
+.post{
+    background-color: #303030;
+}
+.hr{
+    background-color: #6A6A6A;
+}
+.desc-text{
+    color: #626262    ;
+}
+.bg{
+    background-color:  #181818;
+}
+.bg-side{
+    background-color:  #0A0A0A;
+}
+.postit{
+    color: #2EC8B6;
+    background-color: #11302C;
+}
+.nav{
+    background-color: #1A1A1A;
+    backdrop-filter: blur(15px) brightness(75%) saturate(70%);
+}
+.contain {
+    display: flex !important;
+    width: 100% !important;
+}
+
+.container__sidebar {
+    background-color:  #0A0A0A;
+}
+
+.container__main {
+    /* Take the remaining width */
+    flex: 1;
+
+    /* Make it scrollable */
+    overflow: auto;
+}
+
+.border-yes{
+    color: #6A6A6A !important;
+}
+.name{
+    padding-top: 40%;
+}
+.card{
+    background-image: url("    https://images.unsplash.com/photo-1561780339-45013972bece?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80");
+    background-position: bottom;
+}
