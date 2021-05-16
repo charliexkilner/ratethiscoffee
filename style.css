@@ -1,0 +1,17 @@
+.border-rtc{
+    border-color: #6A6A6A !important;
+}
+.side-bg{
+    background-color: #0A0A0A;
+}
+
+.main-bg{
+    background-color: #181818;
+}
+* {
+    font-family: 'Nunito', sans-serif;
+}
+.postit{
+    color: #2EC8B6;
+    background-color: #11302C;
+}
